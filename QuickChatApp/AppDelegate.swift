@@ -11,11 +11,20 @@ import UIKit
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
+    let APP_ID = "C069536F-B28B-21C6-FF5E-E0F6AE6DC000"
+    let SECRET_KEY = "3D6D6901-4047-BD0F-FF7C-C3534FFB5D00"
+    let VERSION_NUM = "v1"
+    
+    var backendless = Backendless.sharedInstance()
+    
     var window: UIWindow?
 
-
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        backendless.initApp(APP_ID, secret:SECRET_KEY, version:VERSION_NUM)
+        
+        Firebase.defaultConfig().persistenceEnabled = true
+        
         return true
     }
 

@@ -7,13 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		898325C21CFE96EF0001380E /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898325C11CFE96EF0001380E /* ChatViewController.swift */; };
 		89C5ECA91CEF9DEC002E1247 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C5ECA81CEF9DEC002E1247 /* AppDelegate.swift */; };
-		89C5ECAB1CEF9DEC002E1247 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C5ECAA1CEF9DEC002E1247 /* ViewController.swift */; };
 		89C5ECAE1CEF9DEC002E1247 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89C5ECAC1CEF9DEC002E1247 /* Main.storyboard */; };
 		89C5ECB01CEF9DEC002E1247 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89C5ECAF1CEF9DEC002E1247 /* Assets.xcassets */; };
 		89C5ECB31CEF9DEC002E1247 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89C5ECB11CEF9DEC002E1247 /* LaunchScreen.storyboard */; };
 		89C5ECBE1CEF9DEC002E1247 /* QuickChatAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C5ECBD1CEF9DEC002E1247 /* QuickChatAppTests.swift */; };
 		89C5ECC91CEF9DEC002E1247 /* QuickChatAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C5ECC81CEF9DEC002E1247 /* QuickChatAppUITests.swift */; };
+		89C5ECD71CF03074002E1247 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 89C5ECD61CF03074002E1247 /* GoogleService-Info.plist */; };
+		89C5ECD91CF0D1D5002E1247 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C5ECD81CF0D1D5002E1247 /* WelcomeViewController.swift */; };
+		89C5ECDB1CF0D331002E1247 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C5ECDA1CF0D331002E1247 /* RegisterViewController.swift */; };
+		89C5ECDD1CF0D33D002E1247 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C5ECDC1CF0D33D002E1247 /* LoginViewController.swift */; };
+		89C5ED031CF11EC2002E1247 /* ProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 89C5ED001CF11EC2002E1247 /* ProgressHUD.bundle */; };
+		89C5ED041CF11EC2002E1247 /* ProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 89C5ED021CF11EC2002E1247 /* ProgressHUD.m */; };
+		89C5ED471CF3F1A2002E1247 /* RecentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C5ED461CF3F1A2002E1247 /* RecentTableViewCell.swift */; };
+		89C5ED491CF3F367002E1247 /* RecentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C5ED481CF3F367002E1247 /* RecentViewController.swift */; };
+		89C5ED4E1CF68AE0002E1247 /* Recent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C5ED4D1CF68AE0002E1247 /* Recent.swift */; };
+		89C5ED501CF8037D002E1247 /* ChooseUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C5ED4F1CF8037D002E1247 /* ChooseUserViewController.swift */; };
+		89FDE6BD1D0CB148007A11B8 /* OutGoingMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89FDE6BC1D0CB148007A11B8 /* OutGoingMessage.swift */; };
+		976F79E9C1135947B8DAE54C /* libPods-QuickChatApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BD6AC288EC98FC330B39A273 /* libPods-QuickChatApp.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +46,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5CBEE087925D5501FD445FE6 /* Pods-QuickChatApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuickChatApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-QuickChatApp/Pods-QuickChatApp.release.xcconfig"; sourceTree = "<group>"; };
+		898325C11CFE96EF0001380E /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		89C5ECA51CEF9DEC002E1247 /* QuickChatApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuickChatApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		89C5ECA81CEF9DEC002E1247 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		89C5ECAA1CEF9DEC002E1247 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		89C5ECAD1CEF9DEC002E1247 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		89C5ECAF1CEF9DEC002E1247 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		89C5ECB21CEF9DEC002E1247 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +60,20 @@
 		89C5ECC41CEF9DEC002E1247 /* QuickChatAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuickChatAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		89C5ECC81CEF9DEC002E1247 /* QuickChatAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickChatAppUITests.swift; sourceTree = "<group>"; };
 		89C5ECCA1CEF9DEC002E1247 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89C5ECD61CF03074002E1247 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		89C5ECD81CF0D1D5002E1247 /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		89C5ECDA1CF0D331002E1247 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		89C5ECDC1CF0D33D002E1247 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		89C5ED001CF11EC2002E1247 /* ProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ProgressHUD.bundle; sourceTree = "<group>"; };
+		89C5ED011CF11EC2002E1247 /* ProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressHUD.h; sourceTree = "<group>"; };
+		89C5ED021CF11EC2002E1247 /* ProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressHUD.m; sourceTree = "<group>"; };
+		89C5ED461CF3F1A2002E1247 /* RecentTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecentTableViewCell.swift; sourceTree = "<group>"; };
+		89C5ED481CF3F367002E1247 /* RecentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecentViewController.swift; sourceTree = "<group>"; };
+		89C5ED4D1CF68AE0002E1247 /* Recent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Recent.swift; sourceTree = "<group>"; };
+		89C5ED4F1CF8037D002E1247 /* ChooseUserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChooseUserViewController.swift; sourceTree = "<group>"; };
+		89FDE6BC1D0CB148007A11B8 /* OutGoingMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OutGoingMessage.swift; sourceTree = "<group>"; };
+		AF7B0D1BBD2B0DB81BE97AB9 /* Pods-QuickChatApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuickChatApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QuickChatApp/Pods-QuickChatApp.debug.xcconfig"; sourceTree = "<group>"; };
+		BD6AC288EC98FC330B39A273 /* libPods-QuickChatApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QuickChatApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				976F79E9C1135947B8DAE54C /* libPods-QuickChatApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,13 +102,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6FE6E5AD9DFD100FF8A22AB5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BD6AC288EC98FC330B39A273 /* libPods-QuickChatApp.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		89C5EC9C1CEF9DEC002E1247 = {
 			isa = PBXGroup;
 			children = (
+				89C5ECFF1CF11EC2002E1247 /* ProgressHUD */,
 				89C5ECA71CEF9DEC002E1247 /* QuickChatApp */,
 				89C5ECBC1CEF9DEC002E1247 /* QuickChatAppTests */,
 				89C5ECC71CEF9DEC002E1247 /* QuickChatAppUITests */,
 				89C5ECA61CEF9DEC002E1247 /* Products */,
+				BD9988C5235E65959A6252F3 /* Pods */,
+				6FE6E5AD9DFD100FF8A22AB5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,11 +137,16 @@
 			isa = PBXGroup;
 			children = (
 				89C5ECA81CEF9DEC002E1247 /* AppDelegate.swift */,
-				89C5ECAA1CEF9DEC002E1247 /* ViewController.swift */,
+				89C5ED4D1CF68AE0002E1247 /* Recent.swift */,
+				89FDE6BC1D0CB148007A11B8 /* OutGoingMessage.swift */,
+				89C5ED4A1CF3F38A002E1247 /* Login */,
+				89C5ED4B1CF3F3C3002E1247 /* CustomTableViewCells */,
+				89C5ED4C1CF3F3F3002E1247 /* UIViewControllers */,
 				89C5ECAC1CEF9DEC002E1247 /* Main.storyboard */,
 				89C5ECAF1CEF9DEC002E1247 /* Assets.xcassets */,
 				89C5ECB11CEF9DEC002E1247 /* LaunchScreen.storyboard */,
 				89C5ECB41CEF9DEC002E1247 /* Info.plist */,
+				89C5ECD61CF03074002E1247 /* GoogleService-Info.plist */,
 			);
 			path = QuickChatApp;
 			sourceTree = "<group>";
@@ -125,6 +169,53 @@
 			path = QuickChatAppUITests;
 			sourceTree = "<group>";
 		};
+		89C5ECFF1CF11EC2002E1247 /* ProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				89C5ED001CF11EC2002E1247 /* ProgressHUD.bundle */,
+				89C5ED011CF11EC2002E1247 /* ProgressHUD.h */,
+				89C5ED021CF11EC2002E1247 /* ProgressHUD.m */,
+			);
+			path = ProgressHUD;
+			sourceTree = "<group>";
+		};
+		89C5ED4A1CF3F38A002E1247 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				89C5ECDA1CF0D331002E1247 /* RegisterViewController.swift */,
+				89C5ECDC1CF0D33D002E1247 /* LoginViewController.swift */,
+				89C5ECD81CF0D1D5002E1247 /* WelcomeViewController.swift */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		89C5ED4B1CF3F3C3002E1247 /* CustomTableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				89C5ED461CF3F1A2002E1247 /* RecentTableViewCell.swift */,
+			);
+			name = CustomTableViewCells;
+			sourceTree = "<group>";
+		};
+		89C5ED4C1CF3F3F3002E1247 /* UIViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				89C5ED481CF3F367002E1247 /* RecentViewController.swift */,
+				89C5ED4F1CF8037D002E1247 /* ChooseUserViewController.swift */,
+				898325C11CFE96EF0001380E /* ChatViewController.swift */,
+			);
+			name = UIViewControllers;
+			sourceTree = "<group>";
+		};
+		BD9988C5235E65959A6252F3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AF7B0D1BBD2B0DB81BE97AB9 /* Pods-QuickChatApp.debug.xcconfig */,
+				5CBEE087925D5501FD445FE6 /* Pods-QuickChatApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +223,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 89C5ECCD1CEF9DEC002E1247 /* Build configuration list for PBXNativeTarget "QuickChatApp" */;
 			buildPhases = (
+				023832A42D797231A8C62F2E /* 📦 Check Pods Manifest.lock */,
 				89C5ECA11CEF9DEC002E1247 /* Sources */,
 				89C5ECA21CEF9DEC002E1247 /* Frameworks */,
 				89C5ECA31CEF9DEC002E1247 /* Resources */,
+				E91DBA7508791C9BE65B05CD /* 📦 Embed Pods Frameworks */,
+				1C7C6B64B161FEE21C9BF787 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -230,7 +324,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				89C5ECB31CEF9DEC002E1247 /* LaunchScreen.storyboard in Resources */,
+				89C5ECD71CF03074002E1247 /* GoogleService-Info.plist in Resources */,
 				89C5ECB01CEF9DEC002E1247 /* Assets.xcassets in Resources */,
+				89C5ED031CF11EC2002E1247 /* ProgressHUD.bundle in Resources */,
 				89C5ECAE1CEF9DEC002E1247 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -251,13 +347,70 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		023832A42D797231A8C62F2E /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		1C7C6B64B161FEE21C9BF787 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QuickChatApp/Pods-QuickChatApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E91DBA7508791C9BE65B05CD /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QuickChatApp/Pods-QuickChatApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		89C5ECA11CEF9DEC002E1247 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				89C5ECAB1CEF9DEC002E1247 /* ViewController.swift in Sources */,
+				89C5ED4E1CF68AE0002E1247 /* Recent.swift in Sources */,
+				89C5ED501CF8037D002E1247 /* ChooseUserViewController.swift in Sources */,
+				89FDE6BD1D0CB148007A11B8 /* OutGoingMessage.swift in Sources */,
+				89C5ECDD1CF0D33D002E1247 /* LoginViewController.swift in Sources */,
+				89C5ED491CF3F367002E1247 /* RecentViewController.swift in Sources */,
+				89C5ECDB1CF0D331002E1247 /* RegisterViewController.swift in Sources */,
+				89C5ED041CF11EC2002E1247 /* ProgressHUD.m in Sources */,
 				89C5ECA91CEF9DEC002E1247 /* AppDelegate.swift in Sources */,
+				89C5ED471CF3F1A2002E1247 /* RecentTableViewCell.swift in Sources */,
+				898325C21CFE96EF0001380E /* ChatViewController.swift in Sources */,
+				89C5ECD91CF0D1D5002E1247 /* WelcomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,8 +552,21 @@
 		};
 		89C5ECCE1CEF9DEC002E1247 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF7B0D1BBD2B0DB81BE97AB9 /* Pods-QuickChatApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/AFNetworking\"",
+					"\"${PODS_ROOT}/Headers/Public/Backendless-ios-SDK\"",
+					"\"${PODS_ROOT}/Headers/Public/DACircularProgress\"",
+					"\"${PODS_ROOT}/Headers/Public/Firebase\"",
+					"\"${PODS_ROOT}/Headers/Public/IDMPhotoBrowser\"",
+					"\"${PODS_ROOT}/Headers/Public/JSQMessagesViewController\"",
+					"\"${PODS_ROOT}/Headers/Public/JSQSystemSoundPlayer\"",
+					"\"${PODS_ROOT}/Headers/Public/pop\"",
+				);
 				INFOPLIST_FILE = QuickChatApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "REM-Designs.QuickChatApp";
@@ -410,8 +576,21 @@
 		};
 		89C5ECCF1CEF9DEC002E1247 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CBEE087925D5501FD445FE6 /* Pods-QuickChatApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/AFNetworking\"",
+					"\"${PODS_ROOT}/Headers/Public/Backendless-ios-SDK\"",
+					"\"${PODS_ROOT}/Headers/Public/DACircularProgress\"",
+					"\"${PODS_ROOT}/Headers/Public/Firebase\"",
+					"\"${PODS_ROOT}/Headers/Public/IDMPhotoBrowser\"",
+					"\"${PODS_ROOT}/Headers/Public/JSQMessagesViewController\"",
+					"\"${PODS_ROOT}/Headers/Public/JSQSystemSoundPlayer\"",
+					"\"${PODS_ROOT}/Headers/Public/pop\"",
+				);
 				INFOPLIST_FILE = QuickChatApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "REM-Designs.QuickChatApp";
@@ -484,6 +663,7 @@
 				89C5ECCF1CEF9DEC002E1247 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		89C5ECD01CEF9DEC002E1247 /* Build configuration list for PBXNativeTarget "QuickChatAppTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +672,7 @@
 				89C5ECD21CEF9DEC002E1247 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		89C5ECD31CEF9DEC002E1247 /* Build configuration list for PBXNativeTarget "QuickChatAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +681,7 @@
 				89C5ECD51CEF9DEC002E1247 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,0 +1,53 @@
+PODS:
+  - AFNetworking (2.5.4):
+    - AFNetworking/NSURLConnection (= 2.5.4)
+    - AFNetworking/NSURLSession (= 2.5.4)
+    - AFNetworking/Reachability (= 2.5.4)
+    - AFNetworking/Security (= 2.5.4)
+    - AFNetworking/Serialization (= 2.5.4)
+    - AFNetworking/UIKit (= 2.5.4)
+  - AFNetworking/NSURLConnection (2.5.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.5.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.5.4)
+  - AFNetworking/Security (2.5.4)
+  - AFNetworking/Serialization (2.5.4)
+  - AFNetworking/UIKit (2.5.4):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - Backendless-ios-SDK (3.0.22)
+  - DACircularProgress (2.3.1)
+  - Firebase (2.3.1)
+  - IDMPhotoBrowser (1.6.2):
+    - AFNetworking
+    - DACircularProgress
+    - pop
+  - JSQMessagesViewController (7.1.0):
+    - JSQSystemSoundPlayer (~> 2.0.1)
+  - JSQSystemSoundPlayer (2.0.1)
+  - pop (1.0.7)
+
+DEPENDENCIES:
+  - Backendless-ios-SDK
+  - Firebase
+  - IDMPhotoBrowser
+  - JSQMessagesViewController
+
+SPEC CHECKSUMS:
+  AFNetworking: 05edc0ac4c4c8cf57bcf4b84be5b0744b6d8e71e
+  Backendless-ios-SDK: e2672d142f92ffe2e8cab996c2b33eeae46b14ab
+  DACircularProgress: 4dd437c0fc3da5161cb289e07ac449493d41db71
+  Firebase: 462795adf92029ddb97777660627f5dd4fd59876
+  IDMPhotoBrowser: ebbfa6690456b72dd92d93b7bc11d71519f4d06d
+  JSQMessagesViewController: ca11f86fa68ca70835f05e169df9244147c1dc40
+  JSQSystemSoundPlayer: c5850e77a4363ffd374cd851154b9af93264ed8d
+  pop: 628ffc631644601567ee8bfaaaea493ebd7d0923
+
+PODFILE CHECKSUM: dfe363f4506e78f23152d2b1e5251d5f07819242
+
+COCOAPODS: 1.0.0
